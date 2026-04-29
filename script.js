@@ -1,4 +1,4 @@
-function number(number){
-    document.getElementById("number1").value += number;
-    console.log(number);
-} 
+function execution(numero){
+    let visor = document.getElementById("visor");
+    visor.value += numero;
+}
