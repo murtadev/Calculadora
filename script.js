@@ -1,3 +1,4 @@
-function somar(){
-    var number0 = parsefloat(document.getElementById("number0").HTMLelement.value); 
-}
+function number(number){
+    document.getElementById("number1").value += number;
+    console.log(number);
+} 
