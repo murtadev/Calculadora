@@ -1,3 +1,4 @@
+
 function execution(numero){
     let visor = document.getElementById("visor");
     visor.value += numero;
@@ -8,22 +9,7 @@ function limpar(){
     visor.value = "";
 }
 
-function incremento(numero){
-    let visor = document.getelementById("visor");
-    visor.value = '++',numero;
-}
-
-function subtração(numero){
+function calcular(){
     let visor = document.getElementById("visor");
-    visor.value = "-",numero;
-}
-
-function divisão(numero){
-    let visor = document.getElementById("visor");
-    visor.value = "/",numero;
-}
-
-function mulitplicação(numero){
-    let visor = document.getElementById("visor");
-    visor.value = "*",numero;
+    visor.value = eval(visor.value);
 }
