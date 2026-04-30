@@ -8,16 +8,14 @@
 </head>
 <body>
     <!--Título da calculadora e deve ficar fora da margem-->
-<h1>Calculadora</h1>
-
- <h2>
+ <body class="calculadora"></div>
+    <h1>Calculadora</h1>
+    
     <!-- será onde os valores serão mostrados deve ter uma margem independente e ser um verde mais claro-->
     <input id = "visor" placeholder = "0">
- </h2>
-   
-    <h3>
+
 <!--será onde os números serão digitados cada número deve ter uma margem independente-->
-    <button onclick = "execution(0)">0</button>
+ <div class="botoes">
     <button onclick = "execution(1)">1</button>
     <button onclick = "execution(2)">2</button>
     <button onclick = "execution(3)">3</button>
@@ -27,13 +25,15 @@
     <button onclick = "execution(7)">7</button>
     <button onclick = "execution(8)">8</button>
     <button onclick = "execution(9)">9</button>
-    <button onclick = "limpar()">Backspace</button>
+    <button onclick = "execution(0)">0</button>
+    <button onclick = "limpar()">AC</button>
     <button onclick = "execution('+')">+</button>
     <button onclick = "execution('-')">-</button>
-    <button onclick = "execution('*')">*</button>
+    <button onclick = "execution('*')">x</button>
     <button onclick = "calcular()">=</button>
 
-    </h3>
+</div> 
+    
 
 <!--importar o CSS-->
 <link rel = "stylesheet" href = "style.css">
